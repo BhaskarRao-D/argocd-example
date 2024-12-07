@@ -1,5 +1,7 @@
 Step -1: Install K8S[Minikube or Master WorkerNodes] and ArgoCD[https://argo-cd.readthedocs.io/en/stable/getting_started/]
+
 Note: kubectl create namespace ---- Before going to step 2, we have to create namespace for argocd.
+
 Step -2: kubectl get pods -n argocd -w
 
 Step -3: kubectl get svc -n argocd
